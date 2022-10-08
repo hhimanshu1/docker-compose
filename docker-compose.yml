@@ -11,8 +11,8 @@ services:
     ports:
       - 3001:30001
     environment:
-      - DB_URL: mongodb://db/vidly
-      
+      - DB_URL= mongodb://db/vidly
+
   db:
     image: mongo:4.0-xenial
     ports:
